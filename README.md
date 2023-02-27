@@ -5,14 +5,21 @@
 ## 文件目录结构
 
 -data
+
     -- rawdata.csv   # 原始的一维数据集（注：只是作为样本数据，实际使用中本身就是二维度矩阵形式的数据，不需要进行转换。）
+    
     -- matrix.txt    # 基于一维数据转换的矩阵形式
+    
 -network
+
     -- sade_network.py  # 堆叠式自编码器降维的神经网络模型架构
 
 -preprocess
+
     -- data.py  # 将1维度数据转换为矩阵
+    
     -- pca.py   # PCA降维
+    
     -- preprocess_for_sade.py  # 堆叠式自编码器模型数据的预处理
 
 -sade.py  # 堆叠式自编码器模型构建
